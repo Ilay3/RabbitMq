@@ -6,9 +6,8 @@ using RabbitMq.Application.Commands;
 var builder = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
-        // Регистрация EasyNetQ с использованием System.Text.Json
         services.AddEasyNetQ("host=localhost")
-                .UseSystemTextJson(); // Подключаем System.Text.Json
+                .UseSystemTextJson(); 
     });
 
 var host = builder.Build();

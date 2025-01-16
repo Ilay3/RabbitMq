@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Api", "RabbitMq.Api\RabbitMq.Api.csproj", "{11A2D9AE-B546-4102-AB25-F978134E4497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Api", "RabbitMq.Api\RabbitMq.Api.csproj", "{11A2D9AE-B546-4102-AB25-F978134E4497}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Application", "RabbitMq.Application\RabbitMq.Application.csproj", "{B3546A33-F76A-436E-943E-B0E382B14EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Application", "RabbitMq.Application\RabbitMq.Application.csproj", "{B3546A33-F76A-436E-943E-B0E382B14EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Domain", "RabbitMq.Domain\RabbitMq.Domain.csproj", "{B65FE582-DD77-4FBE-A440-DE6255DD7FB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Domain", "RabbitMq.Domain\RabbitMq.Domain.csproj", "{B65FE582-DD77-4FBE-A440-DE6255DD7FB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Infrastructure", "RabbitMq.Infrastructure\RabbitMq.Infrastructure.csproj", "{4DB700EA-4474-40A0-812B-628D04A439BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Infrastructure", "RabbitMq.Infrastructure\RabbitMq.Infrastructure.csproj", "{4DB700EA-4474-40A0-812B-628D04A439BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.NotificationService", "RabbitMq.NotificationService\RabbitMq.NotificationService.csproj", "{52A402DF-05A9-4244-9C8E-11CA43A1CCC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.NotificationService", "RabbitMq.NotificationService\RabbitMq.NotificationService.csproj", "{52A402DF-05A9-4244-9C8E-11CA43A1CCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.InventoryService", "InventoryService\RabbitMq.InventoryService.csproj", "{B0DF5FBD-85BD-452B-BF42-A45DE791E215}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.InventoryService", "RabbitMq.InventoryService\RabbitMq.InventoryService.csproj", "{113B8E40-B904-4A23-9A0E-591C4227D427}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{52A402DF-05A9-4244-9C8E-11CA43A1CCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A402DF-05A9-4244-9C8E-11CA43A1CCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A402DF-05A9-4244-9C8E-11CA43A1CCC8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0DF5FBD-85BD-452B-BF42-A45DE791E215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0DF5FBD-85BD-452B-BF42-A45DE791E215}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0DF5FBD-85BD-452B-BF42-A45DE791E215}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0DF5FBD-85BD-452B-BF42-A45DE791E215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113B8E40-B904-4A23-9A0E-591C4227D427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113B8E40-B904-4A23-9A0E-591C4227D427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113B8E40-B904-4A23-9A0E-591C4227D427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113B8E40-B904-4A23-9A0E-591C4227D427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
