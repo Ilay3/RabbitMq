@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="8.0.0-beta98" />
+    <PackageReference Include="EasyNetQ.Serialization.SystemTextJson" Version="8.0.0-beta98" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitMq.Application\RabbitMq.Application.csproj" />
+  </ItemGroup>
+
 </Project>
